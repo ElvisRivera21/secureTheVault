@@ -2,7 +2,7 @@
 const seq1 = (8 + 2);
 const seq2 = (20 * 2);
 const seq3 = (40 - 1);
-alert('The Secret Combination Is : ' + seq1 + ' ' + seq2 + ' ' + seq3);
+alert(' You have received this message because you have been chosen to open an important vault. Here is the secret combination:' + seq1 + ' ' + seq2 + ' ' + seq3);
 
 //Form Validation
 document.getElementById('vaultForm').addEventListener('submit', function (event) {
@@ -15,6 +15,7 @@ document.getElementById('vaultForm').addEventListener('submit', function (event)
 
     //Check if combination is correct
     if (firstNum === 10 && secondNum === 40 && thirdNum === 39) {
+        document.getElementById('secretImage').style.display = 'block';
         alert('You are in!');
     } else {
         alert('Access Denied!');
