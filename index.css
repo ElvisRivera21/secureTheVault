@@ -34,6 +34,8 @@
     align-items: center;
     background-color: rgb(5, 3, 0);
     color: white;
+    margin: auto;
+    padding: auto;
 }
 p,a {
     text-align: center;
