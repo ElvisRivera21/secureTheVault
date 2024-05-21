@@ -26,3 +26,33 @@
     align-items: center;
     height: 100vh;
 }
+
+.signiture {
+   display: grid;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(5, 3, 0);
+    color: white;
+}
+p,a {
+    text-align: center;
+    color: white;
+}
+
+.linkedin-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #0077b5;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.linkedin-button:hover {
+background-color: #005582;
+cursor: pointer;
+}
