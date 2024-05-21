@@ -15,7 +15,8 @@ document.getElementById('vaultForm').addEventListener('submit', function (event)
 
     //Check if combination is correct
     if (firstNum === 10 && secondNum === 40 && thirdNum === 39) {
-        document.getElementById('secretImage').style.display = 'block';
+        let img = document.getElementById('successImage');
+        img.src = './resources/success.jpg';
         alert('You are in!');
     } else {
         alert('Access Denied!');
